@@ -1,0 +1,164 @@
+{
+  "data": [
+    {
+      "offers" :
+      [
+        {
+          "title" :" کامپیوتر همه کاره 21.5 اینچی اپل مدل iMac MMQA2 2017",
+          "href" : "",
+          "src" : "@/assets/images/home-gallery4.png",
+          "percent" : "10",
+          "oldPrice" : 6587890,
+          "newPrice" : 6580000,
+          "lists" : [
+            {
+              "title" : "پردازنده‌ی مرکزی"
+            , "details" :
+            "260 Gold"
+            },
+            {
+              "title" : "قابلیت پخش صوتی" ,
+              "details" : "دارد"
+            },
+            {
+              "title" : "بازه‌ی اندازه صفحه نمایش:" ,
+              "details" :" 6.0 اینچ و بزرگتر"
+            }
+          ],
+          "countdown" : true
+        , "countdownRemain": "2022-04-13 23:59:59"
+        , "sell" : "445"
+        , "inStock" : "موجود"
+        , "numbers" : "100"
+        , "sold" : "90"
+        , "sold-percent" : "90"
+
+        }
+      ,{
+        "title" :" کامپیوتر همه کاره 21.5 اینچی اپل مدل iMac MMQA2 2017",
+        "href" : "",
+        "src" : "@/assets/images/home-gallery4.png",
+        "percent" : "10",
+        "oldPrice" : 6587890,
+        "newPrice" : 6580000,
+        "lists" : [
+          {
+            "title" : "پردازنده‌ی مرکزی"
+          , "details" :
+          "260 Gold"
+          },
+          {
+            "title" : "قابلیت پخش صوتی" ,
+            "details" : "دارد"
+          },
+          {
+            "title" : "بازه‌ی اندازه صفحه نمایش:" ,
+            "details" :" 6.0 اینچ و بزرگتر"
+          }
+        ],
+        "countdown" : true
+      , "countdownRemain": "2022-04-13 23:59:59"
+      , "sell" : "445"
+      , "inStock" : "موجود"
+      , "numbers" : "100"
+      , "sold" : "90"
+      , "soldPercent" : "90"
+
+      }
+      ,{
+        "title" :" کامپیوتر همه کاره 21.5 اینچی اپل مدل iMac MMQA2 2017",
+        "href" : "",
+        "src" : "@/assets/images/home-gallery4.png",
+        "percent" : "10",
+        "oldPrice" : 6587890,
+        "newPrice" : 6580000,
+        "lists" : [
+          {
+            "title" : "پردازنده‌ی مرکزی"
+          , "details" :
+          "260 Gold"
+          },
+          {
+            "title" : "قابلیت پخش صوتی" ,
+            "details" : "دارد"
+          },
+          {
+            "title" : "بازه‌ی اندازه صفحه نمایش:" ,
+            "details" :" 6.0 اینچ و بزرگتر"
+          }
+        ],
+        "countdown" : true
+      , "countdownRemain": "2022-04-13 23:59:59"
+      , "sell" : "445"
+      , "inStock" : "موجود"
+      , "numbers" : "100"
+      , "sold" : "90"
+      , "soldPercent" : "90"
+
+      }
+      ,{
+        "title" :" کامپیوتر همه کاره 21.5 اینچی اپل مدل iMac MMQA2 2017",
+        "href" : "",
+        "src" : "@/assets/images/home-gallery4.png",
+        "percent" : "10",
+        "oldPrice" : 6587890,
+        "newPrice" : 6580000,
+        "lists" : [
+          {
+            "title" : "پردازنده‌ی مرکزی"
+          , "details" :
+          "260 Gold"
+          },
+          {
+            "title" : "قابلیت پخش صوتی" ,
+            "details" : "دارد"
+          },
+          {
+            "title" : "بازه‌ی اندازه صفحه نمایش:" ,
+            "details" :" 6.0 اینچ و بزرگتر"
+          }
+        ],
+        "countdown" : true
+      , "countdownRemain": "2022-04-13 23:59:59"
+      , "sell" : "445"
+      , "inStock" : "موجود"
+      , "numbers" : "100"
+      , "sold" : "90"
+      , "soldPercent" : "90"
+
+      }
+      ,{
+        "title" :" کامپیوتر همه کاره 21.5 اینچی اپل مدل iMac MMQA2 2017",
+        "href" : "",
+        "src" : "@/assets/images/home-gallery4.png",
+        "percent" : "10",
+        "oldPrice" : 6587890,
+        "newPrice" : 6580000,
+        "lists" : [
+          {
+            "title" : "پردازنده‌ی مرکزی"
+          , "details" :
+          "260 Gold"
+          },
+          {
+            "title" : "قابلیت پخش صوتی" ,
+            "details" : "دارد"
+          },
+          {
+            "title" : "بازه‌ی اندازه صفحه نمایش:" ,
+            "details" :" 6.0 اینچ و بزرگتر"
+          }
+        ],
+        "countdown" : true
+      , "countdownRemain": "2022-04-13 23:59:59"
+      , "sell" : "445"
+      , "inStock" : "موجود"
+      , "numbers" : "100"
+      , "sold" : "90"
+      , "soldPercent" : "90"
+
+      }
+
+      ]}
+  ]
+}
