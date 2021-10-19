@@ -69,9 +69,9 @@
               </g>
             </svg>
             <span class="count">
+                          <i class="fas fa-percent text-xs"></i>
                           <span class="text-xl font-bold" v-text="offer.percent">
                           </span>
-                          <i class="fas fa-percent text-xs"></i>
                     </span>
           </div>
           <div class="block ">

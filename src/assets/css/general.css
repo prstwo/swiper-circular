@@ -42,7 +42,7 @@ tr, th, td {
 body {
     font-family: Algerian;
     line-height: 1.4;
-    direction: rtl;
+    direction: ltr;
     overflow-x: hidden;
     background: linear-gradient(90deg , rgb(0, 75, 89), black);
     font-size: 1.1rem;
@@ -101,6 +101,9 @@ img {
 
 .site-radius{
     border-radius: var(--siteRadius);
+}
+.bg-site-blue{
+    background: var(--siteBlue);
 }
 /*swiper */
 
@@ -210,9 +213,9 @@ ul.offers-lists>li.active a{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    font-size: 16px;
+    transform: translate(-50% ,-50%);
+    -webkit-transform: translate(-50% ,-50%);
+    font-size: 15px;
     color: #fff;
     line-height: 0;
     text-align: center;
@@ -250,7 +253,7 @@ ul.offers-lists>li.active a{
     overflow-y: visible;
 }
 .gallery-main-list>ul>li {
-    padding: 0 22px 0 0;
+    padding: 0  0 0 22px;
     position: relative;
 }
 
@@ -260,7 +263,7 @@ ul.offers-lists>li.active a{
     font-size: 0.9rem;
     content: '\f00c';
     position:absolute;
-    right: 0;
+    left: 0;
     top: 50%;
     transform: translateY(-50%);
     color: rgba(0,0,0,0.5);
@@ -511,6 +514,7 @@ ul.offers-lists>li.active a{
     padding-top: 8px;
 }
 .best-deals-carts{
+    direction: rtl;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 1rem ;
@@ -524,6 +528,7 @@ ul.offers-lists>li.active a{
 }
 .gallery-top .swiper-slide{
     padding-bottom: 2vw !important;
+    direction: ltr;
 }
 .gallery-thumb-group {
     /*height: 100%;*/
@@ -608,7 +613,13 @@ ul.offers-lists>li.active a{
     color: var(--siteBlue);
     font-size: 0.9rem !important;
 }
-
+/*footer*/
+/*.footer-container:before{*/
+/*    content: url("assets/images/wave.svg");*/
+/*    position: absolute;*/
+/*    bottom: -100%;*/
+/*    width: 100%;*/
+/*}*/
 @media screen and (min-width: 1024px){
 
     /**1 / 5***/

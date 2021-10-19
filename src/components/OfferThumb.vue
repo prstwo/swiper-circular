@@ -3,7 +3,7 @@
     <div
         class=" flex flex-col flex-nowrap justify-start site-radius bg-white h-full w-full p-4">
       <div
-          class="flex flex-col sm:flex-row-reverse sm:items-stretch flex-nowrap h-full w-full">
+          class="flex flex-col-reverse sm:flex-row sm:items-stretch flex-nowrap h-full w-full">
 
         <div class="w-full sm:w-3/5  h-full  flex flex-col content-center items-center relative text-center">
           <h2>
@@ -21,13 +21,13 @@
                  $
               </div>
           </div>
-          <div class="gallery-main-list text-left mb-4 text-lg font-medium">
+          <div class="gallery-main-list text-left mb-4 text-base font-medium opacity-90 ">
             <ul>
               <template v-for="(list, index) in offer.lists" :key="index">
                 <li>
-                                   <span v-text="list.title">
+                                   <span v-text="list.title" class="">
                                   </span>
-                    <span v-text="list.details">
+                    <span v-text="list.details" class=" ">
                     </span>
                 </li>
               </template>
@@ -66,10 +66,10 @@
               </g>
             </svg>
             <span class="count">
-                                                    <span class="text-xl font-bold" v-text="offer.percent">
-                                                    </span>
-                                                    <i class="fas fa-percent text-xs"></i>
-                                                </span>
+                  <i class="fas fa-percent text-xs"></i>
+                  <span class="text-xl font-bold" v-text="offer.percent">
+                  </span>
+            </span>
           </div>
           <div class="block mb-4">
             <img :src="offer.src" alt="" class="w-full h-auto">

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-11/12  m-auto my-8">
+  <main class="w-11/12  m-auto my-8">
     <div class=" best-deals-carts">
       <div class="swiper gallery-top">
         <div class="swiper-wrapper">
@@ -20,7 +20,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </main>
 </template>
 
 <script>
