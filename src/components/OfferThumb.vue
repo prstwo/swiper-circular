@@ -2,52 +2,10 @@
   <div class=" swiper-slide w-full  site-radius h-full  relative " :data-id="index">
     <div
         class=" flex flex-col flex-nowrap justify-start site-radius bg-white h-full w-full p-4">
-      <div
-          class="flex flex-col-reverse sm:flex-row sm:items-stretch flex-nowrap h-full w-full">
+      <div class="flex flex-col-reverse sm:flex-row sm:items-stretch flex-nowrap h-full w-full">
 
         <div class="w-full sm:w-3/5  h-full  flex flex-col content-center items-center relative text-center">
-          <h2>
-            <a href="/product" class="font-bold text-xl one-line" v-text="offer.title">
-            </a>
-          </h2>
-          <div class="gallery-main-price mt-2 mb-4 font-bold text-lg">
-              <div class="old-price">
-                <del v-text="offer.oldPrice"></del>
-                $
-              </div>
-              <div class="new-price">
-                 <span v-text="offer.newPrice">
-                 </span>
-                 $
-              </div>
-          </div>
-          <div class="gallery-main-list text-left mb-4 text-base font-medium opacity-90 ">
-            <ul>
-              <template v-for="(list, index) in offer.lists" :key="index">
-                <li>
-                                   <span v-text="list.title" class="">
-                                  </span>
-                    <span v-text="list.details" class=" ">
-                    </span>
-                </li>
-              </template>
-            </ul>
-          </div>
-          <div class="gallery-main-progress w-full  font-bold">
-            <div class="w-full flex flex-row justify-between">
-              <div>
-                          <span class="">Status:
-                          </span >
-                          <span v-text="offer.inStock">
-                           </span>
-              </div>
-            </div>
-            <div class="w-full">
-              <progress class="w-full" :value="offer.sold"
-                        :max="offer.numbers" v-text="offer.soldPercent + '%'">
-              </progress>
-            </div>
-          </div>
+          <gallery-content :offer="offer"/>
         </div>
         <div class="w-full  sm:w-2/5 pl-1 h-full   relative flex flex-col justify-center"
             style="-webkit-align-self: center; align-self: center">
@@ -82,9 +40,12 @@
 </template>
 
 <script>
+import GalleryContent from "./GalleryContent";
 export default {
   name: "OfferThumb"
-  ,props: ['index', 'offer']
+  ,
+  components: {GalleryContent},
+  props: ['index', 'offer']
 }
 </script>
 
