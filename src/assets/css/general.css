@@ -1,20 +1,7 @@
 :root{
-    --siteBlue:#01579b;
-    --siteYellow: rgb(255, 156, 1);
-    --siteYellowOne:rgba(255,156,1,.1);
-    --siteYellowTwo:rgba(255,156,1,.2);
-    --siteYellowThree:rgba(255,156,1,.3);
-    --siteYellowFour:rgba(255,156,1,.4);
-    --siteYellowFive:rgba(255,156,1,.5);
-    --siteYellowSix:rgba(255,156,1,.6);
-    --siteYellowSeven:rgba(255,156,1,.7);
-    --siteYellowEight:rgba(255,156,1,.8);
-    --siteYellowNine: rgba(255, 156, 1, 0.9);
-    --siteDarkYellow: rgb(179, 151, 108);
-    --siteDarkerYellow: rgb(154, 93, 0);
-    --siteDarkYellowCo:#D98D14 ;
+    --siteBlue: #00788c;
+    --siteBlueLight: #80edff;
     --siteOrange:#E65409 ;
-    --siteLightOrange:#F0790A ;
     --siteRadius : 5px;
     --siteRadiusBtn : 10px;
 }
@@ -51,12 +38,13 @@ tr, th, td {
 /* Typography
  * *********************************** */
 
+
 body {
-    font-family: Tahoma;
+    font-family: Algerian;
     line-height: 1.4;
     direction: rtl;
     overflow-x: hidden;
-    background: #f0f0f0;
+    background: linear-gradient(90deg , rgb(0, 75, 89), black);
     font-size: 1.1rem;
     scroll-behavior: smooth;
 }
@@ -111,6 +99,9 @@ img {
     border-style: none;
 }
 
+.site-radius{
+    border-radius: var(--siteRadius);
+}
 /*swiper */
 
 /*swiper*/
@@ -164,7 +155,7 @@ img {
     opacity: 1 !important;
 }
 .swiper-container-vije .swiper-pagination-bullet-active{
-    background-color: var(--siteYellow) !important;
+    background-color: var(--siteBlue) !important;
     color: white;
 }
 .gallery-links{
@@ -191,7 +182,7 @@ img {
 }
 
 ul.offers-lists>li.active{
-    background-color: var(--siteYellow);
+    background-color: var(--siteBlue);
     color: white;
 }
 ul.offers-lists>li.active a{
@@ -202,7 +193,7 @@ ul.offers-lists>li.active a{
 
 }
 .cls-3 {
-    fill: var(--siteYellow);
+    fill: var(--siteBlue);
 }
 .cls-4 {
     fill: none;
@@ -276,10 +267,11 @@ ul.offers-lists>li.active a{
 }
 
 .gallery-main-price .old-price{
-    color: rgba(0,0,0,0.6);
+    color: rgba(0,0,0,0.4);
+    font-size: 15px;
 }
 .gallery-main-price .new-price{
-    color: var(--siteYellow);
+    color: var(--siteBlue);
     font-size: larger;
 }
 .gallery-main-countdown, .gallery-main-progress{
@@ -299,8 +291,8 @@ ul.offers-lists>li.active a{
     position: relative;
 }
 .number-countdown-container.active{
-    color: var(--siteYellow);
-    background-color: var(--siteYellowTwo);
+    color: var(--siteBlue);
+    background-color: var(--siteBlueLight);
 }
 .number-countdown-container:after{
     position: absolute;
@@ -394,7 +386,7 @@ ul.offers-lists>li.active a{
     flex-grow: 0;
 }
 .product-full-view-btn{
-    color: var(--siteYellow) !important;
+    color: var(--siteBlue) !important;
 }
 .instant-view-sub-title{
     display: block;
@@ -522,6 +514,7 @@ ul.offers-lists>li.active a{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 1rem ;
+    border-radius: var(--siteRadius);
 }
 .gallery-top {
     /*height: 100%;*/
@@ -555,7 +548,7 @@ ul.offers-lists>li.active a{
     cursor: pointer;
     /*grid-column: span 1 / span 1;*/
     width: 100% !important;
-    direction: rtl;
+    /*direction: rtl;*/
 }
 .gallery-thumb-group .swiper-slide[aria-label="2 / 5"]:has( + .swiper-slide + .swiper-slide + .swiper-slide-thumb-active) {
     grid-column: 1 / 2 !important;
@@ -574,6 +567,48 @@ ul.offers-lists>li.active a{
 .gallery-thumb-group .swiper-wrapper{
     transform: translate3d(0,0,0) !important;
 }
+
+/*general styles of swiper*/
+.swiper-button-prev, .swiper-button-next{
+    position: absolute;
+    top: 0;
+    bottom: 125px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #019ca7;
+    font-size: 2.5rem;
+    z-index: 9999;
+    transition: all .3s ease-in-out;
+}
+
+.swiper-button-next{
+    background: var(--siteBlueLight);
+    left: 0!important;
+    height: 60px;
+    width: 40px;
+    padding-right: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0 5px 8px -3px #e0cccc;
+}
+.swiper-button-prev{
+    background: var(--siteBlueLight);
+    right: 0!important;
+    height: 60px;
+    width: 40px;
+    padding-left: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0 5px 8px -3px #e0cccc;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after{
+    color: var(--siteBlue);
+    font-size: 0.9rem !important;
+}
+
 @media screen and (min-width: 1024px){
 
     /**1 / 5***/

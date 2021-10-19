@@ -1,5 +1,8 @@
 import { createApp } from 'vue';
-import App from './App.vue'
+import App from './App.vue';
+/*font awesome import*/
+import '@fortawesome/fontawesome-free/css/all.css';
+import '@fortawesome/fontawesome-free/js/all.js';
 // import Swiper bundle with all modules installed
 import Swiper from 'swiper/swiper-bundle';
 // import styles bundle
