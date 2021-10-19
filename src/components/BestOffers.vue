@@ -1,11 +1,7 @@
 <template>
-  <script src="assets/swiper.js"></script>
-  <script src="assets/general.js"></script>
-
-  HI
   <div class="">
     <div class=" best-deals-carts">
-      <div class="swiper-container gallery-top">
+      <div class="swiper gallery-top">
         <div class="swiper-wrapper">
 <!--          @foreach($offers as $offer)-->
           <template v-for="(offer, index) in offers" :key="index">
@@ -101,7 +97,7 @@
         <div class="swiper-button-next swiper-button-white"></div>
         <div class="swiper-button-prev swiper-button-white"></div>
       </div>
-      <div class="swiper-container gallery-thumb-group">
+      <div class="swiper gallery-thumb-group">
         <div class="swiper-wrapper grid-flow-row">
 <!--          @foreach($offers as $offer)-->
           <template v-for="(offer, index) in offers" :key="index">
@@ -207,7 +203,7 @@ let offers =   [
   {
     "title" :" کامپیوتر همه کاره 21.5 اینچی اپل مدل iMac MMQA2 2017",
     "href" : "",
-    "src" : require('@/assets/images/home-gallery4.png'),
+    "src" : require('@/assets/images/home-gallery1.png'),
     "percent" : "10",
     "oldPrice" : 6587890,
     "newPrice" : 6580000,
@@ -238,7 +234,7 @@ let offers =   [
   ,{
     "title" :" کامپیوتر همه کاره 21.5 اینچی اپل مدل iMac MMQA2 2017",
     "href" : "",
-    "src" : require('@/assets/images/home-gallery4.png'),
+    "src" : require('@/assets/images/home-gallery2.png'),
     "percent" : "10",
     "oldPrice" : 6587890,
     "newPrice" : 6580000,
@@ -300,7 +296,7 @@ let offers =   [
   ,{
     "title" :" کامپیوتر همه کاره 21.5 اینچی اپل مدل iMac MMQA2 2017",
     "href" : "",
-    "src" : require('@/assets/images/home-gallery4.png'),
+    "src" : require('@/assets/images/home-gallery6.png'),
     "percent" : "10",
     "oldPrice" : 6587890,
     "newPrice" : 6580000,
@@ -331,7 +327,7 @@ let offers =   [
   ,{
     "title" :" کامپیوتر همه کاره 21.5 اینچی اپل مدل iMac MMQA2 2017",
     "href" : "",
-    "src" : require('@/assets/images/home-gallery4.png'),
+    "src" : require('@/assets/images/home-gallery7.png'),
     "percent" : "10",
     "oldPrice" : 6587890,
     "newPrice" : 6580000,
