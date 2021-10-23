@@ -15,5 +15,3 @@ export default {
 <style>
   @import 'assets/css/general.css';
 </style>
-
-<!--<link rel="stylesheet" href="/assets/general.css">-->
