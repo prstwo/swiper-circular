@@ -258,15 +258,16 @@ ul.offers-lists>li.active a{
 }
 
 .gallery-main-list>ul>li:before{
-    font-family:"Font Awesome 5 Free";
-    font-weight: 600;
-    font-size: 0.9rem;
-    content: '\f00c';
+    content: url("../images/check2.svg");
+    display: block;
+    /*width: 8px;*/
+    /*height: 8px;*/
     position:absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
+    left: -2px;
+    top: 0;
+    /*transform: translateY(-50%);*/
     color: rgba(0,0,0,0.5);
+    opacity: 0.4;
 }
 
 .gallery-main-price .old-price{
