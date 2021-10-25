@@ -8,7 +8,7 @@ import Footer from './components/Footer.vue';
 export default {
   name: 'App',
   components: {
-    BestOffers , Footer
+    BestOffers ,Footer
   }
 }
 </script>
